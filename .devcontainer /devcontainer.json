@@ -1,15 +1,25 @@
-{
-  "extensions": [
-    "tht13.html-preview-vscode",
-    "james-yu.latex-workshop"
-  ],
-  "settings": {
-    "latex-workshop.view.pdf.viewer": "tab",
-    "files.associations": {
-      "*.tex": "latex"
-    },
-    "workbench.editorAssociations": {
-      "*.md": "vscode.markdown.preview.editor"
-    }
+/*
+ * Dev containter configuration file for dr Kingo Codespace
+ * Class HAI5014 - by camphouse.me
+ */
+
+ {
+  "name": "Mark that up",
+  "hostRequirements": {
+      "cpus": 2
+  },
+  // Configure tool-specific properties.
+  "customizations": {
+      "vscode": {
+      "extensions": [
+      "github.copilot",
+      "ms-python.python",
+      "ms-toolsai.datawrangler",
+      "ms-toolsai.jupyter",
+      "DavidAnson.vscode-markdownlint",
+      "esbenp.prettier-vscode",
+      "robconery.pg-chat"
+      ]
+  }
   }
 }
