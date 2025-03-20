@@ -6,9 +6,14 @@
       ],
       "settings": {
         "latex-workshop.view.pdf.viewer": "tab",
+        "files.associations": {
+          "*.tex": "latex"
+        },
+        "[latex]": {
+          "editor.defaultFormatter": "James-Yu.latex-workshop"
+        },
         "workbench.editorAssociations": {
-          "*.md": "vscode.markdown.preview.editor",
-          "*.tex": "latex-workshop-pdf-hook"
+          "*.md": "vscode.markdown.preview.editor"
         }
       }
     }
