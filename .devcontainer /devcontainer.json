@@ -1,8 +1,4 @@
 {
-  "name": "Markup Codespace",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
   "customizations": {
     "vscode": {
       "extensions": [
